@@ -1,0 +1,122 @@
+.customer-credit-shell {
+  min-height: 100vh;
+  color: #172124;
+  background: #ecebe5;
+  font-family: 'Manrope', sans-serif;
+}
+.customer-credit-shell .dashboard-navbar { background: rgba(246, 243, 234, .96); border-color: #d7d8d3; box-shadow: 0 8px 24px rgba(23, 33, 36, .045); }
+.customer-credit-shell .dashboard-header-inner { height: 74px; }
+.customer-credit-shell .dashboard-brand-mark { color: #172124; background: #ff684d; border-radius: 50%; box-shadow: 0 0 0 5px rgba(255, 104, 77, .13); }
+.customer-credit-shell .dashboard-brand-title { color: #172124; font: 700 16px 'Syne', sans-serif; letter-spacing: -.02em; }
+.customer-credit-shell .dashboard-terminal-badge { color: #bf4731; background: #fde4dd; border-color: #f4b7a9; font-family: 'Manrope', sans-serif; letter-spacing: .08em; }
+.customer-credit-shell .dashboard-brand-subtitle { color: #758184; font-size: 11px; }
+.customer-credit-shell .dashboard-brand-subtitle .text-sky-400 { color: #e5543c; }
+.customer-credit-shell .dashboard-scan-button { color: #344347; background: #fff; border-color: #d7d8d3; box-shadow: 0 2px 5px rgba(23, 33, 36, .04); font-family: 'Manrope', sans-serif; border-radius: 12px; }
+.customer-credit-shell .dashboard-scan-button:hover { color: #172124; background: #f8f6f0; border-color: #bfc4bf; }
+.customer-credit-shell .dashboard-scan-button svg,
+.customer-credit-shell .dashboard-clock svg { color: #e5543c; }
+.customer-credit-shell .dashboard-scan-button kbd { color: #526064; background: #f1f0ea; border-color: #d7d8d3; box-shadow: none; }
+.customer-credit-shell .dashboard-clock .text-slate-300 { color: #344347; }
+.customer-credit-shell .dashboard-api-status { color: #236144; }
+.customer-credit-shell .dashboard-session > button:first-of-type { background: #fff; border-color: #d7d8d3; box-shadow: 0 2px 6px rgba(23, 33, 36, .04); border-radius: 14px; }
+.customer-credit-shell .dashboard-session > button:first-of-type:hover { background: #fdfcf9; border-color: #bdc3bf; }
+.customer-credit-shell .dashboard-operator-avatar { background: #ff684d; color: #172124; border-radius: 50%; font-family: 'Syne', sans-serif; }
+.customer-credit-shell .dashboard-operator-name { color: #172124; }
+.customer-credit-shell .dashboard-session > button:first-of-type .text-slate-400,
+.customer-credit-shell .dashboard-session > button:first-of-type .text-slate-500 { color: #758184; }
+.customer-credit-shell .dashboard-session > button:first-of-type .text-sky-400,
+.customer-credit-shell .dashboard-session > button:first-of-type .text-amber-400 { color: #e5543c; }
+.customer-credit-shell .dashboard-logout { color: #a94332; background: #fff0ec; border-color: #f1c1b5; }
+.customer-credit-shell .dashboard-logout:hover { color: #8c3428; background: #ffe5de; }
+.customer-credit-shell .dashboard-nav-list { border-color: #dedfd9; scrollbar-width: thin; scrollbar-color: #c6cbc7 transparent; }
+.customer-credit-shell .dashboard-nav-list button { color: #687477; background: transparent; box-shadow: none; }
+.customer-credit-shell .dashboard-nav-list button:not(.bg-brand-600):hover { color: #172124; background: #eeede7; }
+.customer-credit-shell .dashboard-nav-list button.bg-brand-600 { color: #fff; background: #172124; box-shadow: 3px 3px 0 #ff684d; }
+.customer-credit-shell .dashboard-nav-list button.bg-brand-600 svg { color: #ff9a84; }
+.customer-credit-shell .dashboard-main { padding-top: 30px; padding-bottom: 42px; }
+.customer-credit-shell .dashboard-footer { color: #758184; background: #e5e4dd; border-color: #d3d5cf; }
+.customer-credit-shell .dashboard-footer .text-slate-400 { color: #687477; }
+.customer-credit-shell .dashboard-footer .text-amber-400 { color: #c84f3c; }
+.customer-credit-shell .dashboard-footer .text-emerald-400 { color: #236144; }
+
+.customer-credit-view { color: #172124; }
+.customer-credit-view .customer-credit-header {
+  color: #f6f3ea;
+  background:
+    radial-gradient(circle at 87% 72%, rgba(255, 102, 72, .22), transparent 23%),
+    linear-gradient(145deg, #15252b 0%, #0d171b 72%);
+  border: 1px solid rgba(255, 255, 255, .08);
+  border-radius: 23px;
+  box-shadow: 0 16px 36px rgba(23, 33, 36, .12);
+}
+.customer-credit-view .customer-credit-eyebrow { color: #ff907b; letter-spacing: .12em; }
+.customer-credit-view .customer-credit-title { color: #f6f3ea; font: 600 clamp(24px, 2.7vw, 34px) / 1.08 'Syne', sans-serif; letter-spacing: -.04em; }
+.customer-credit-view .customer-credit-description { color: #a8b2b3; }
+.customer-credit-view .customer-credit-stats { flex-wrap: wrap; justify-content: flex-end; }
+.customer-credit-view .customer-credit-stat { color: #f6f3ea; background: rgba(255, 255, 255, .055); border-color: rgba(255, 255, 255, .13); border-radius: 14px; }
+.customer-credit-view .customer-credit-stat-label { color: #a8b2b3; }
+.customer-credit-view .customer-credit-total-count { color: #f6f3ea; }
+.customer-credit-view .customer-credit-total-balance { color: #f6c16e; }
+.customer-credit-view .customer-add-button { color: #172124; background: #ff684d; border: 1px solid #ff684d; border-radius: 12px; box-shadow: 3px 3px 0 rgba(255, 255, 255, .12); }
+.customer-credit-view .customer-add-button:hover { color: #172124; background: #ff826c; border-color: #ff826c; transform: translateY(-1px); }
+.customer-credit-view .customer-search-panel { background: #f8f7f2; border: 1px solid #d9dad4; border-radius: 17px; box-shadow: 0 4px 14px rgba(23, 33, 36, .035); }
+.customer-credit-view .customer-search-panel .text-slate-400 { color: #758184; }
+.customer-credit-view .customer-search-input { color: #172124; background: #fff; border: 1px solid #d7d8d3; border-radius: 12px; box-shadow: none; }
+.customer-credit-view .customer-search-input::placeholder { color: #899394; }
+.customer-credit-view .customer-search-input:focus { border-color: #e5543c; box-shadow: 0 0 0 3px rgba(229, 84, 60, .12); }
+.customer-credit-view .customer-credit-card { color: #172124; background: #f8f7f2; border: 1px solid #d9dad4; border-radius: 18px; box-shadow: 0 4px 14px rgba(23, 33, 36, .035); transition: border-color .2s ease, box-shadow .2s ease, transform .2s ease; }
+.customer-credit-view .customer-credit-card:hover { border-color: #c0c5c0; box-shadow: 0 10px 24px rgba(23, 33, 36, .075); transform: translateY(-2px); }
+.customer-credit-view .customer-id { color: #526064; background: #eeede7; border-color: #d9dad4; }
+.customer-credit-view .customer-type { color: #b74333; background: #fde5de; border-color: #f4c4b8; }
+.customer-credit-view .customer-name { color: #172124; font: 700 18px 'Syne', sans-serif; }
+.customer-credit-view .customer-credit-card:hover .customer-name { color: #c84f3c; }
+.customer-credit-view .customer-phone { color: #687477; }
+.customer-credit-view .customer-phone svg { color: #899394; }
+.customer-credit-view .customer-vehicle-panel { color: #526064; background: #efeee8; border-color: #d9dad4; border-radius: 14px; }
+.customer-credit-view .customer-vehicle-row { color: #687477; }
+.customer-credit-view .customer-vehicle-row svg { color: #c84f3c; }
+.customer-credit-view .customer-vehicle-number { color: #c84f3c; }
+.customer-credit-view .customer-vehicle-meta { color: #758184; }
+.customer-credit-view .customer-credit-status { border-color: #e1e2dc; }
+.customer-credit-view .customer-credit-status .text-slate-400 { color: #687477; }
+.customer-credit-view .customer-credit-status .text-slate-500 { color: #758184; }
+.customer-credit-view .customer-credit-status .text-slate-200 { color: #172124; }
+.customer-credit-view .customer-credit-status .text-amber-400 { color: #b96d28; }
+.customer-credit-view .customer-credit-status .text-slate-400.font-bold { color: #526064; }
+.customer-credit-view .customer-pos-button { color: #172124; background: #ff684d; border: 1px solid #ff684d; border-radius: 11px; box-shadow: 2px 2px 0 rgba(23, 33, 36, .08); }
+.customer-credit-view .customer-pos-button:hover { color: #172124; background: #ff826c; }
+.customer-credit-view button { cursor: pointer; }
+.customer-credit-view button:focus-visible,
+.customer-credit-view input:focus-visible { outline: 2px solid #e5543c; outline-offset: 3px; }
+
+@media (max-width: 1000px) {
+  .customer-credit-shell .dashboard-header-inner { height: auto; min-height: 72px; gap: 14px; }
+  .customer-credit-shell .dashboard-brand-title { font-size: 14px; }
+  .customer-credit-view .customer-credit-stats { justify-content: flex-start; }
+}
+@media (max-width: 700px) {
+  .customer-credit-shell .dashboard-header-inner { height: auto; min-height: 68px; flex-wrap: wrap; justify-content: space-between; padding-top: 10px; padding-bottom: 10px; }
+  .customer-credit-shell .dashboard-header-inner > div:first-child { flex: 1; min-width: 0; }
+  .customer-credit-shell .dashboard-header-inner > div:first-child > div:last-child > div:first-child { flex-wrap: wrap; gap: 5px 8px; }
+  .customer-credit-shell .dashboard-brand-title { font-size: 12px; }
+  .customer-credit-shell .dashboard-brand-mark { width: 36px; height: 36px; }
+  .customer-credit-shell .dashboard-terminal-badge { font-size: 8px; }
+  .customer-credit-shell .dashboard-header-inner > div:last-child { gap: 8px; }
+  .customer-credit-shell .dashboard-session > button:first-of-type { padding: 4px; }
+  .customer-credit-shell .dashboard-session > button:first-of-type > div:last-child { display: none; }
+  .customer-credit-shell .dashboard-main { padding-top: 20px; }
+  .customer-credit-view .customer-credit-header { padding: 20px; border-radius: 19px; }
+  .customer-credit-view .customer-credit-stats { gap: 8px; }
+  .customer-credit-view .customer-credit-stat { padding: 9px 11px; }
+  .customer-credit-view .customer-add-button { justify-content: center; }
+}
+@media (prefers-reduced-motion: reduce) {
+  .customer-credit-shell *,
+  .customer-credit-shell *::before,
+  .customer-credit-shell *::after {
+    animation-duration: .01ms !important;
+    animation-iteration-count: 1 !important;
+    scroll-behavior: auto !important;
+    transition-duration: .01ms !important;
+  }
+}

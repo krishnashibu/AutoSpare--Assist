@@ -1,0 +1,186 @@
+.pos-billing-shell {
+  min-height: 100vh;
+  color: #172124;
+  background: #ecebe5;
+  font-family: 'Manrope', sans-serif;
+}
+.pos-billing-shell .dashboard-navbar {
+  background: rgba(246, 243, 234, .96);
+  border-color: #d7d8d3;
+  box-shadow: 0 8px 24px rgba(23, 33, 36, .045);
+}
+.pos-billing-shell .dashboard-header-inner { height: 74px; }
+.pos-billing-shell .dashboard-brand-mark {
+  color: #172124;
+  background: #ff684d;
+  border-radius: 50%;
+  box-shadow: 0 0 0 5px rgba(255, 104, 77, .13);
+}
+.pos-billing-shell .dashboard-brand-title { color: #172124; font: 700 16px 'Syne', sans-serif; letter-spacing: -.02em; }
+.pos-billing-shell .dashboard-terminal-badge { color: #bf4731; background: #fde4dd; border-color: #f4b7a9; font-family: 'Manrope', sans-serif; letter-spacing: .08em; }
+.pos-billing-shell .dashboard-brand-subtitle { color: #758184; font-size: 11px; }
+.pos-billing-shell .dashboard-brand-subtitle .text-sky-400 { color: #e5543c; }
+.pos-billing-shell .dashboard-scan-button { color: #344347; background: #fff; border-color: #d7d8d3; box-shadow: 0 2px 5px rgba(23, 33, 36, .04); font-family: 'Manrope', sans-serif; border-radius: 12px; }
+.pos-billing-shell .dashboard-scan-button:hover { color: #172124; background: #f8f6f0; border-color: #bfc4bf; }
+.pos-billing-shell .dashboard-scan-button svg,
+.pos-billing-shell .dashboard-clock svg { color: #e5543c; }
+.pos-billing-shell .dashboard-scan-button kbd { color: #526064; background: #f1f0ea; border-color: #d7d8d3; box-shadow: none; }
+.pos-billing-shell .dashboard-clock .text-slate-300 { color: #344347; }
+.pos-billing-shell .dashboard-api-status { color: #236144; }
+.pos-billing-shell .dashboard-session > button:first-of-type { background: #fff; border-color: #d7d8d3; box-shadow: 0 2px 6px rgba(23, 33, 36, .04); border-radius: 14px; }
+.pos-billing-shell .dashboard-session > button:first-of-type:hover { background: #fdfcf9; border-color: #bdc3bf; }
+.pos-billing-shell .dashboard-operator-avatar { background: #ff684d; color: #172124; border-radius: 50%; font-family: 'Syne', sans-serif; }
+.pos-billing-shell .dashboard-operator-name { color: #172124; }
+.pos-billing-shell .dashboard-session > button:first-of-type .text-slate-400,
+.pos-billing-shell .dashboard-session > button:first-of-type .text-slate-500 { color: #758184; }
+.pos-billing-shell .dashboard-session > button:first-of-type .text-sky-400,
+.pos-billing-shell .dashboard-session > button:first-of-type .text-amber-400 { color: #e5543c; }
+.pos-billing-shell .dashboard-logout { color: #a94332; background: #fff0ec; border-color: #f1c1b5; }
+.pos-billing-shell .dashboard-logout:hover { color: #8c3428; background: #ffe5de; }
+.pos-billing-shell .dashboard-nav-list { border-color: #dedfd9; scrollbar-width: thin; scrollbar-color: #c6cbc7 transparent; }
+.pos-billing-shell .dashboard-nav-list button { color: #687477; background: transparent; box-shadow: none; }
+.pos-billing-shell .dashboard-nav-list button:not(.bg-brand-600):hover { color: #172124; background: #eeede7; }
+.pos-billing-shell .dashboard-nav-list button.bg-brand-600 { color: #fff; background: #172124; box-shadow: 3px 3px 0 #ff684d; }
+.pos-billing-shell .dashboard-nav-list button.bg-brand-600 svg { color: #ff9a84; }
+.pos-billing-shell .dashboard-main { padding-top: 30px; padding-bottom: 42px; }
+.pos-billing-shell .dashboard-footer { color: #758184; background: #e5e4dd; border-color: #d3d5cf; }
+.pos-billing-shell .dashboard-footer .text-slate-400 { color: #687477; }
+.pos-billing-shell .dashboard-footer .text-amber-400 { color: #c84f3c; }
+.pos-billing-shell .dashboard-footer .text-emerald-400 { color: #236144; }
+
+.pos-billing-view { color: #172124; }
+.pos-billing-view .pos-search-panel,
+.pos-billing-view .pos-product-card,
+.pos-billing-view .pos-cart-panel {
+  color: #172124;
+  background: #f8f7f2;
+  border: 1px solid #d9dad4;
+  box-shadow: 0 8px 24px rgba(23, 33, 36, .045);
+}
+.pos-billing-view .pos-search-panel { border-radius: 18px; }
+.pos-billing-view .pos-search-input {
+  color: #172124;
+  background: #fff;
+  border: 1px solid #d7d8d3;
+  border-radius: 12px;
+  box-shadow: inset 0 1px 2px rgba(23, 33, 36, .025);
+}
+.pos-billing-view .pos-search-input::placeholder { color: #899394; }
+.pos-billing-view .pos-search-input:focus { border-color: #e5543c; box-shadow: 0 0 0 3px rgba(229, 84, 60, .12); }
+.pos-billing-view .pos-search-panel .text-slate-400 { color: #758184; }
+.pos-billing-view .pos-scan-button {
+  color: #172124;
+  background: #ff684d;
+  border: 1px solid #ff684d;
+  border-radius: 12px;
+  box-shadow: 3px 3px 0 rgba(23, 33, 36, .1);
+}
+.pos-billing-view .pos-scan-button:hover { color: #172124; background: #ff826c; border-color: #ff826c; transform: translateY(-1px); }
+.pos-billing-view .pos-categories { scrollbar-width: thin; scrollbar-color: #c6cbc7 transparent; }
+.pos-billing-view .pos-category {
+  color: #687477;
+  background: #f8f7f2;
+  border-color: #d7d8d3;
+  box-shadow: none;
+}
+.pos-billing-view .pos-category:not(.bg-brand-600):hover { color: #172124; background: #fff; border-color: #bdc3bf; }
+.pos-billing-view .pos-category.bg-brand-600 { color: #f6f3ea; background: #172124; border-color: #172124; box-shadow: 3px 3px 0 #ff684d; }
+.pos-billing-view .pos-products-grid { scrollbar-width: thin; scrollbar-color: #c6cbc7 transparent; }
+.pos-billing-view .pos-product-card { border-radius: 17px; transition: border-color .2s ease, box-shadow .2s ease, transform .2s ease; }
+.pos-billing-view .pos-product-card:hover { border-color: #c0c5c0; box-shadow: 0 10px 24px rgba(23, 33, 36, .075); transform: translateY(-2px); }
+.pos-billing-view .pos-product-sku { color: #bd4734; background: #fde5de; border-color: #f4c4b8; }
+.pos-billing-view .pos-product-brand { color: #758184; }
+.pos-billing-view .pos-product-name { color: #172124; font-family: 'Syne', sans-serif; }
+.pos-billing-view .pos-product-card:hover .pos-product-name { color: #c84f3c; }
+.pos-billing-view .pos-product-fit { color: #758184; }
+.pos-billing-view .pos-product-price { color: #236144; }
+.pos-billing-view .pos-product-stock { color: #758184; }
+.pos-billing-view .pos-product-stock .text-slate-300 { color: #526064; }
+.pos-billing-view .pos-product-stock .text-amber-400 { color: #b96d28; }
+.pos-billing-view .pos-add-button { color: #344347; background: #f1f0ea; border-color: #d7d8d3; }
+.pos-billing-view .pos-add-button:hover { color: #172124; background: #ff684d; border-color: #ff684d; }
+.pos-billing-view .pos-empty-state { color: #758184; background: #f8f7f2; border-color: #d9dad4; }
+
+.pos-billing-view .pos-cart-panel { border-radius: 20px; }
+.pos-billing-view .pos-customer-card { background: #efeee8; border-color: #d9dad4; }
+.pos-billing-view .pos-customer-icon { color: #c84f3c; background: #fde5de; border-color: #f4c4b8; }
+.pos-billing-view .pos-customer-name { color: #172124; }
+.pos-billing-view .pos-customer-detail { color: #758184; }
+.pos-billing-view .pos-customer-detail .text-sky-400 { color: #c84f3c; }
+.pos-billing-view .pos-customer-detail .text-amber-400 { color: #9a641f; }
+.pos-billing-view .pos-customer-select { color: #b74333; background: #fde5de; border-color: #f4c4b8; }
+.pos-billing-view .pos-customer-select:hover { color: #8c3428; background: #ffe5de; }
+.pos-billing-view .pos-cart-panel .border-b { border-color: #e1e2dc; }
+.pos-billing-view .pos-cart-panel .text-white { color: #263235; }
+.pos-billing-view .pos-cart-panel .text-slate-400,
+.pos-billing-view .pos-cart-panel .text-slate-500 { color: #758184; }
+.pos-billing-view .pos-cart-panel .text-sky-400 { color: #c84f3c; }
+.pos-billing-view .pos-cart-panel .text-emerald-400 { color: #236144; }
+.pos-billing-view .pos-cart-panel .text-amber-400 { color: #9a641f; }
+.pos-billing-view .pos-cart-panel .text-rose-400 { color: #b74333; }
+.pos-billing-view .pos-cart-panel .hover\:text-rose-300:hover { color: #8c3428; }
+.pos-billing-view .pos-cart-items { scrollbar-width: thin; scrollbar-color: #c6cbc7 transparent; }
+.pos-billing-view .pos-cart-item { background: #f1f0ea; border-color: #e1e2dc; }
+.pos-billing-view .pos-cart-item .text-white { color: #263235; }
+.pos-billing-view .pos-cart-item .text-slate-400 { color: #758184; }
+.pos-billing-view .pos-cart-item .text-emerald-400 { color: #236144; }
+.pos-billing-view .pos-cart-item .text-slate-500 { color: #758184; }
+.pos-billing-view .pos-cart-item button:hover { color: #b74333; }
+.pos-billing-view .pos-quantity-stepper { color: #344347; background: #fff; border-color: #d7d8d3; }
+.pos-billing-view .pos-quantity-stepper .text-white { color: #172124; }
+.pos-billing-view .pos-quantity-stepper button { color: #687477; }
+.pos-billing-view .pos-quantity-stepper button:hover { color: #c84f3c; }
+.pos-billing-view .pos-cart-empty { color: #758184; }
+.pos-billing-view .pos-cart-empty .text-slate-400 { color: #899394; }
+.pos-billing-view .pos-cart-totals { color: #526064; background: #f1f0ea; border-color: #d9dad4; }
+.pos-billing-view .pos-cart-totals .border-b,
+.pos-billing-view .pos-cart-totals .border-t { border-color: #d9dad4; }
+.pos-billing-view .pos-cart-totals .text-white { color: #263235; }
+.pos-billing-view .pos-cart-totals .text-slate-400 { color: #687477; }
+.pos-billing-view .pos-cart-totals .text-emerald-400 { color: #236144; }
+.pos-billing-view .pos-cart-totals .text-amber-400 { color: #9a641f; }
+.pos-billing-view .pos-discount-option { box-shadow: none; }
+.pos-billing-view .pos-discount-option:not(.bg-amber-500) { color: #526064; background: #fff; border-color: #d7d8d3; }
+.pos-billing-view .pos-discount-option:not(.bg-amber-500):hover { color: #172124; background: #eeede7; }
+.pos-billing-view .pos-discount-option.bg-amber-500 { color: #172124; background: #ff684d; box-shadow: 2px 2px 0 rgba(23, 33, 36, .1); }
+.pos-billing-view .pos-checkout-button {
+  color: #172124;
+  background: #ff684d;
+  border: 1px solid #ff684d;
+  border-radius: 13px;
+  box-shadow: 3px 3px 0 rgba(23, 33, 36, .1);
+}
+.pos-billing-view .pos-checkout-button:hover { color: #172124; background: #ff826c; border-color: #ff826c; transform: translateY(-1px); }
+.pos-billing-view .pos-checkout-button:disabled { color: #687477; background: #dedfd9; border-color: #dedfd9; box-shadow: none; opacity: 1; }
+.pos-billing-view button { cursor: pointer; }
+.pos-billing-view button:focus-visible,
+.pos-billing-view input:focus-visible { outline: 2px solid #e5543c; outline-offset: 3px; }
+
+@media (max-width: 1023px) {
+  .pos-billing-shell .pos-cart-column { position: static; }
+}
+@media (max-width: 640px) {
+  .pos-billing-shell .dashboard-header-inner { height: auto; min-height: 68px; flex-wrap: wrap; justify-content: space-between; padding-top: 10px; padding-bottom: 10px; }
+  .pos-billing-shell .dashboard-header-inner > div:first-child { flex: 1; min-width: 0; }
+  .pos-billing-shell .dashboard-header-inner > div:first-child > div:last-child > div:first-child { flex-wrap: wrap; gap: 5px 8px; }
+  .pos-billing-shell .dashboard-brand-title { font-size: 12px; }
+  .pos-billing-shell .dashboard-brand-mark { width: 36px; height: 36px; }
+  .pos-billing-shell .dashboard-terminal-badge { font-size: 8px; }
+  .pos-billing-shell .dashboard-header-inner > div:last-child { gap: 8px; }
+  .pos-billing-shell .dashboard-session > button:first-of-type { padding: 4px; }
+  .pos-billing-shell .dashboard-session > button:first-of-type > div:last-child { display: none; }
+  .pos-billing-shell .dashboard-main { padding-top: 20px; }
+  .pos-billing-view .pos-cart-panel { padding: 16px; }
+  .pos-billing-view .pos-customer-card { gap: 10px; }
+  .pos-billing-view .pos-customer-select { padding-left: 9px; padding-right: 9px; }
+}
+@media (prefers-reduced-motion: reduce) {
+  .pos-billing-shell *,
+  .pos-billing-shell *::before,
+  .pos-billing-shell *::after {
+    animation-duration: .01ms !important;
+    animation-iteration-count: 1 !important;
+    scroll-behavior: auto !important;
+    transition-duration: .01ms !important;
+  }
+}
